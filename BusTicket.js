@@ -1,4 +1,4 @@
 function Register()
 {
-    window.open("index.html");
+    window.open("PaymentGateway.html");
 }

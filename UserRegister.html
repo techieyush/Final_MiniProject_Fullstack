@@ -5,60 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./UserRegister.css">
+    <link rel="stylesheet" href="./UserRegister.js">
     <title>Registration Form</title>
 </head>
 <body>
     <div class="container">
-        <div class="title">Registration Form</div>
-        <form action="connect.php" method="post">
-            <div class="user-details">
-                <div class="input-box">
-                    <span class="details">Full Name</span>
-                    <input type="text" placeholder="Enter your name" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Username</span>
-                    <input type="text" placeholder="Enter your Username" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Email</span>
-                    <input type="Email" placeholder="Enter your email" required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Contact No.</span>
-                    <input type="text" placeholder="Enter your Contact No." required>
-                </div>
-                <div class="input-box">
-                    <span class="details">Password</span>
-                    <input type="password" placeholder="Enter your password" required>
-                </div>  
-                <div class="input-box">
-                    <span class="details">Date of Birth</span>
-                    <input type="date" placeholder="Enter your DOB" required>
-                </div>
-            </div>
-            <div>
-                <span class="Gender">Gender</span> <br>
-                <input type="radio" id="Male" name="fav_language" value="Male">
-                <label for="html">Male</label>&nbsp;
-                <input type="radio" id="Female" name="fav_language" value="Female">
-                <label for="Female">Female</label>&nbsp;
-                <input type="radio" id="Others" name="fav_language" value="Others">
-                <label for="Others">Others</label>
-
-            </div>
-          
-            <div class="button" onclick="Register()">
-                <input type="submit" value="Register">
-            </div>
-
-        </form>
-    </div>
-<script>
-    function Register()
-    {
-        window.open("index.html");
-    }
-</script>    
+        <img src="./Images/user-login-icon-14.png" class="Image">
+            <h1>Registration Form</h1>
+            <form action="./UseRegister.php" method="post">
+                <p>First Name:</p>
+                <input type="text" name="firstname" placeholder="First Name">
+                <p>Last Name:</p>
+                <input type="text" name="lastname" placeholder="Last Name">
+                <p>Email:</p>
+                <input type="email" name="email" placeholder="Email">
+                <p>Password:</p>
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit" name="save">Registration</button>
+                <input type="submit" name="display" value="display">
+            </form>
+        </div>
+    
 </body>
 </html>

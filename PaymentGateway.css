@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(130, 64, 64);
+    background-image:url('https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/06/24143132/RBI-delays-implementation-of-provisions-for-issuing-credit-and-debit-cards.jpg') ;
 }
 .container{
     width: 500px;
@@ -23,6 +23,10 @@ body{
     flex-direction: column;
     padding: 20px;
     justify-content: space-around;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 
 }
 /* .cardSelect{

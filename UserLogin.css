@@ -19,6 +19,9 @@
     transform:translate(-50%,-50%);
     padding: 70px 30px;
     border: 1px solid rgb(177, 177, 89);
+    border-radius: 10px;
+    /* box-shadow: 0 -33px 43px rgb(0 40 85 / 4%), 0 17px 43px rgb(0 40 85 / 16%); */
+    
 }
 .Image{
     width: 100px;

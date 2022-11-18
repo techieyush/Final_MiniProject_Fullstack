@@ -20,14 +20,14 @@
                         <li><a class="navBar" href="#">Home</a></li>
                         <li><a class="navBar" href="#about">About us</a></li>
                         <li><a class="navBar" href="#">Services</a></li>
-                        <li><a class="navBar" href="#">Our Bus</a></li>
+                        <li><a class="navBar" href="#">Buses</a></li>
                         <li><a class="navBar" href="#">Contact us</a></li>
-                        <li><a class="navBar" href="#">Login</a></li>
+                        <li><a class="navBar" href="#" onclick="Login()">Login</a></li>
 
                     </ul>
 
                 </nav>
-                <img id="avtar" src="Images/avatar.png" alt="Login">
+                <img id="avtar" src="Images/avatar.png" alt="Login" onclick="Login()">
             </div>
         </center>
         <span class="span3"><marquee behavior="alternate" direction="left">Welcome to Online Ticket Reservation System</marquee> </span><br>
@@ -36,13 +36,13 @@
         <div id="container1">
             <div style="width: 45%;">
                 <div style="padding-right: 80px; font-weight: bold;">
-                    <h1><em style="color: green;">MyTicket.com</em> is India’s largest <br> online bus ticketing platform</h1><br> This has transformed bus travel in the country by bringing ease and convenience to millions of Indians who travel using buses.
+                    <h1><em style="color: green;">MyTicket.com</em> is India’s largest <br> online bus ticketing platform</h1><br><span style="color: white;"> This has transformed bus travel in the country by bringing ease and convenience to millions of Indians who travel using buses.
                     Founded in 2006, MyTicket.com is part of India’s leading online travel company MakeMyTrip Limited (NASDAQ: MMYT). By providing widest choice, superior customer service, lowest prices and unmatched benefits, MyTicket.com has served
-                    over 18 million customers. MyTicket.com has a global presence with operations across Indonesia, Singapore, Malaysia, Colombia and Peru apart from India.
+                    over 18 million customers. MyTicket.com has a global presence with operations across Indonesia, Singapore, Malaysia, Colombia and Peru apart from India.</span>
                 </div>
                 <br><br>
                 <span class="span1">
-                <a href="./page1.html">Book Ticket</a>
+                <a href="./UserLogin.html">Book Ticket</a>
                 </span>
             </div>
 
@@ -79,7 +79,7 @@
                             <option value="">Set Seat</option>
                         </select>
                     </div>
-                    <button type="submit" id="submit">Submit Button</button>
+                    <button type="submit" id="submit" onclick="OpenTform()">Submit Button</button>
                 </div>
             </div>
         </center>
@@ -161,5 +161,15 @@
    
 
 </body>
+<script>
+    function Login()
+    {
+        window.open('UserLogin.html');
+    }
+    function OpenTform()
+    {
+        window.open('BusTicket.html');
+    }
+</script>
 
 </html>
