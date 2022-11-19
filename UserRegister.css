@@ -1,80 +1,54 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    font-family: sans-serif;
 }
 body{
-    background-image: url('https://c.wallhere.com/photos/1f/7c/anime-172547.jpg!d');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA7gK4ZQDXipFxAQ3_L5Dww-lE60ZMkfrH0Q&usqp=CAU');
     background-size: cover;
+    color: black ;
+    background-repeat: no-repeat;
+   
 }
-.container{
-    width: 370px;
-    height: 450px;
-    background:rgb(243, 238, 238);
-    top: 50%;
+.registration-form{
+    position: absolute;
+    top:50%;
     left: 50%;
-    position: absolute;
-    transform:translate(-50%,-50%);
-    padding: 70px 30px;
-    border: 1px solid rgb(177, 177, 89);
-    border-radius: 10px;
-    /* box-shadow: 0 -33px 43px rgb(0 40 85 / 4%), 0 17px 43px rgb(0 40 85 / 16%); */
-    
+    transform: translate(-50%,-50%);
+    width: 350px;
 }
-.Image{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    /* margin-top: 5px; */
-    margin-left: 105px;
-    background:rgb(243, 238, 238);
-    padding-bottom: 10px;
-}
-.heading{
-    display: flex;
+.registration-form h1{
+    font-size: 30px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    background:rgb(243, 238, 238);
-    font-size: 22px;
+    text-transform:uppercase;
+    margin:20px 0 ;
+    color: #fff;
+}
 
+.registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+    color: #fff;
 }
-.container p{
-    font-weight: bold;
-    background:rgb(243, 238, 238);
-}
-.container input{
-    width: 100%;
-    /* margin-bottom: 20px; */
-    background:rgb(243, 238, 238);
-}
-.container input[type="text"],input[type="password"]
-{
-    border: none;
-    border-bottom: 1px solid black;
-    background:rgb(243, 238, 238);
-    outline: none;
-    height: 25px;
-    /* margin-top: 5px; */
+.registration-form input{
     font-size: 16px;
-}
-.container input[type="submit"]
-{
-    border: none;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
     outline: none;
-    height: 40px;
-    /* background: rgba(243, 238, 238, 0.649); */
-    color:rgb(81, 80, 80);
-    font-size: 12px;
-    font-weight: 100;
-    font-weight:bold ;
-   
 }
-.Newaccount{
-    text-decoration: none;
-   
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 50px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color:#fff;
+    margin-left: 90px;
+}
+.registration-form button:hover{
+    color:red ;
 }

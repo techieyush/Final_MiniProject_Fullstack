@@ -97,6 +97,10 @@ form .category label{
 
 } */
 
+#dropdown{
+    height: 120%;
+    width: 60%;
+}
 
 form .button{
     height: 45px;

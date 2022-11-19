@@ -13,88 +13,66 @@
         <div class="title">Book Bus Ticket</div>
         <form action="#">
             <div class="user-details">
-                <div class="input-box">
-                    <span class="details">Source Station</span>
-                    <input type="text" placeholder="Enter your name" required>
-                    <section>
-                        <select name="Mumbai" id="Mumbai">Mumbai</select>
-                        <select name="Delhi" id="Delhi">Delhi</select>
-                        <select name="Bengaluru" id="Bengaluru">Bengaluru</select>
-                        <select name="Kolkata" id="Kolkata">Kolkata</select>
-                        <select name="Chennai" id="Chennai">Chennai</select>
-                        <select name="Ahmedabad" id="Ahmedabad">Ahmedabad</select>
-                        <select name="Hyderabad" id="Hyderabad">Hyderabad</select>
-                        <select name="Pune" id="Pune">Pune</select>
-                        <select name="Surat" id="Surat">Surat</select>
-                        <select name="Lucknow" id="Lucknow">Lucknow</select>
-                        <select name="Jaipur" id="Jaipur">Jaipur</select>
-                        <select name="Kanpur" id="Kanpur">Kanpur</select>
-                        <select name="Nagpur" id="Nagpur">Nagpur</select>
-                        <select name="Indore" id="Indore">Indore</select>
-                        <select name="Patna" id="Patna">Patna</select>
-                        <select name="Bhopal" id="Bhopal">Bhopal</select>
-                        <select name="Ludhiana" id="Ludhiana">Ludhiana</select>
-                        <select name="Agra" id="Agra">Agra</select>
-                        <select name="Gorakhpur" id="Gorakhpur">Gorakhpur</select>
-                        <select name="Meerut" id="Meerut">Meerut</select>
-                        <select name="Ghaziabad" id="Ghaziabad">Ghaziabad</select>
-                        <select name="Amritsar" id="Amritsar">Amritsar</select>
-                        <select name="Varanasi" id="Varanasi">Varanasi</select>
-                        <select name="Allahabad" id="Allahabad">Allahabad</select>
-                        <select name="Aligarh" id="Aligarh">Aligarh</select>
-                        <select name="Chandigarh" id="Chandigarh">Chandigarh</select>
-                        <select name="Mathura" id="Mathura">Mathura</select>
-                        <select name="Bareilly" id="Bareilly">Bareilly</select>
-                        <select name="Moradabad" id="Moradabad">Moradabad</select>
-                        <select name="Baliya" id="Baliya">Baliya</select>
-                        <select name="Shahjahanpur" id="Shahjahanur">Shahjahanpur</select>
-                        <select name="Muzaffarnagar" id="Muzaffarnagar">Muzaffarnagar</select>
-                        <select name="Lakhimpur" id="Lakhimpur">Lakhimpur</select>
-                        
-
-                    </section>
-                </div>
-                <div class="input-box">
-                    <span class="details">Destination Station</span>
-                    <input type="text" placeholder="Enter your name" required>
-                    <section>
-                        <select name="Mumbai" id="Mumbai">Mumbai</select>
-                        <select name="Delhi" id="Delhi">Delhi</select>
-                        <select name="Bengaluru" id="Bengaluru">Bengaluru</select>
-                        <select name="Kolkata" id="Kolkata">Kolkata</select>
-                        <select name="Chennai" id="Chennai">Chennai</select>
-                        <select name="Ahmedabad" id="Ahmedabad">Ahmedabad</select>
-                        <select name="Hyderabad" id="Hyderabad">Hyderabad</select>
-                        <select name="Pune" id="Pune">Pune</select>
-                        <select name="Surat" id="Surat">Surat</select>
-                        <select name="Lucknow" id="Lucknow">Lucknow</select>
-                        <select name="Jaipur" id="Jaipur">Jaipur</select>
-                        <select name="Kanpur" id="Kanpur">Kanpur</select>
-                        <select name="Nagpur" id="Nagpur">Nagpur</select>
-                        <select name="Indore" id="Indore">Indore</select>
-                        <select name="Patna" id="Patna">Patna</select>
-                        <select name="Bhopal" id="Bhopal">Bhopal</select>
-                        <select name="Ludhiana" id="Ludhiana">Ludhiana</select>
-                        <select name="Agra" id="Agra">Agra</select>
-                        <select name="Gorakhpur" id="Gorakhpur">Gorakhpur</select>
-                        <select name="Meerut" id="Meerut">Meerut</select>
-                        <select name="Ghaziabad" id="Ghaziabad">Ghaziabad</select>
-                        <select name="Amritsar" id="Amritsar">Amritsar</select>
-                        <select name="Varanasi" id="Varanasi">Varanasi</select>
-                        <select name="Allahabad" id="Allahabad">Allahabad</select>
-                        <select name="Aligarh" id="Aligarh">Aligarh</select>
-                        <select name="Chandigarh" id="Chandigarh">Chandigarh</select>
-                        <select name="Mathura" id="Mathura">Mathura</select>
-                        <select name="Bareilly" id="Bareilly">Bareilly</select>
-                        <select name="Moradabad" id="Moradabad">Moradabad</select>
-                        <select name="Baliya" id="Baliya">Baliya</select>
-                        <select name="Shahjahanpur" id="Shahjahanur">Shahjahanpur</select>
-                        <select name="Muzaffarnagar" id="Muzaffarnagar">Muzaffarnagar</select>
-                        <select name="Lakhimpur" id="Lakhimpur">Lakhimpur</select>
-                        
-
-                    </section>
-                </div>
+                <div class="dropdown">
+                    <div id="container2">
+                        <div class="getInput">
+                            <div class="selectItem">
+                                Select Source<br> 
+                                <select name="From" class="select">
+                                    
+                                    <option value="Lucknow">Lucknow</option>
+                                    <option value="Sitapur">Sitapur</option>
+                                    <option value="Shahjahanpur">Shahjahanpur</option>
+                                    <option value="Bareilly">Bareilly</option>
+                                    <option value="Moradabad">Moradabad</option>
+                                    <option value="Rampur">Rampur</option>
+                                    <option value="Hapur">Hapur</option>
+                                    <option value="Ghaziabad">Ghaziabad</option>
+                                    <option value="Merut">Merut</option>
+                                    <option value="Muzaffarnagar">Muzaffarnagar</option>
+                                    <option value="Aligarh">Aligarh</option>
+                                    <option value="Mathura">Mathura</option>
+                                    <option value="Hathras">Hathras</option>
+                                    <option value="Agra">Agra</option>
+                                    <option value="Mainpuri">Mainpuri</option>
+                                    <option value="Ethawa">Ethawa</option>
+                                    <option value="Firozabad">Firozabad</option>
+                                    <option value="Kanpur">Kanpur</option>
+                                    <option value="Varanasi">Varanasi</option>
+                                    <option value="Allahabad">Allahabad</option>
+                                    <option value="Lakhimpur">Lakhimpur</option>
+                                    
+                                </select>
+                            </div>
+                            <div id="container2">
+                                <div class="getInput">
+                                    <div class="selectItem">
+                                        Destination<br> <select name="From" class="select">
+                                            
+                                            <option value="Lucknow">Lucknow</option>
+                                            <option value="Sitapur">Sitapur</option>
+                                            <option value="Shahjahanpur">Shahjahanpur</option>
+                                            <option value="Bareilly">Bareilly</option>
+                                            <option value="Moradabad">Moradabad</option>
+                                            <option value="Rampur">Rampur</option>
+                                            <option value="Hapur">Hapur</option>
+                                            <option value="Ghaziabad">Ghaziabad</option>
+                                            <option value="Merut">Merut</option>
+                                            <option value="Muzaffarnagar">Muzaffarnagar</option>
+                                            <option value="Aligarh">Aligarh</option>
+                                            <option value="Mathura">Mathura</option>
+                                            <option value="Hathras">Hathras</option>
+                                            <option value="Agra">Agra</option>
+                                            <option value="Mainpuri">Mainpuri</option>
+                                            <option value="Ethawa">Ethawa</option>
+                                            <option value="Firozabad">Firozabad</option>
+                                            <option value="Kanpur">Kanpur</option>
+                                            <option value="Varanasi">Varanasi</option>
+                                            <option value="Allahabad">Allahabad</option>
+                                            <option value="Lakhimpur">Lakhimpur</option>
+                                            
+                                        </select>
+                                    </div>
                 <div class="input-box">
                     <span class="details">Full Name</span>
                     <input type="text" placeholder="Enter your Username" required>
